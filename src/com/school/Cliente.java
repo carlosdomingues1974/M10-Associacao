@@ -45,4 +45,22 @@ public class Cliente {
     public String getApelido() {
         return apelido;
     }
+
+    //Métodos setters
+
+    /**
+     * Atribui um novo valor ao atributo nome do objeto
+     * @param nome novo valor para o nome do Cliente
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     * Atribui um novo valor ao atributo apelido do objeto
+     * @param apelido novo valor para o apelido do Cliente
+     */
+    public void setApelido(String apelido) {
+        this.apelido = apelido;
+    }
 }
