@@ -68,7 +68,6 @@ public class ContaBancaria {
     /**
      * Permite depositar dinheiro numa conta bancária
      * @param quantia recebe o valor da quantia a depositar
-     * @return devolve o saldo atualizado da conta bancária
      */
     public void depositar(double quantia){
         saldo = saldo + quantia;
