@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35c19b8-8ddb-4b38-bb3d-9eee349ca1e0" name="Changes" comment="Acrescentar o método levantar à classe ContaBancaria">
+    <list default="true" id="c35c19b8-8ddb-4b38-bb3d-9eee349ca1e0" name="Changes" comment="Criar o diagrama de classes">
+      <change afterPath="$PROJECT_DIR$/src/com/school/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vp/.exemploAssociacao.vpp.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vp/exemploAssociacao.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/vp/exemploAssociacao.vpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700493473739</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Criar o diagrama de classes">
+      <option name="closed" value="true" />
+      <created>1700496056020</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700496056020</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +182,11 @@
     <MESSAGE value="Associar um Cliente à classe ContaBancaria" />
     <MESSAGE value="Acrescentar o método depositar à classe ContaBancaria" />
     <MESSAGE value="Acrescentar o método levantar à classe ContaBancaria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acrescentar o método levantar à classe ContaBancaria" />
+    <MESSAGE value="Criar o diagrama de classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar o diagrama de classes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

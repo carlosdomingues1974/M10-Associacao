@@ -71,7 +71,8 @@ public class ContaBancaria {
      * @return devolve o saldo atualizado da conta bancária
      */
     public double depositar(double quantia){
-        return saldo + quantia;
+        saldo = saldo + quantia;
+        return saldo;
     }
 
     /**
