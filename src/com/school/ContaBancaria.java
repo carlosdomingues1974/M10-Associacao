@@ -85,7 +85,7 @@ public class ContaBancaria {
         if (quantia > saldo)
             return false;
         else{
-            saldo = saldo + quantia;
+            saldo = saldo - quantia;
             return true;
         }
     }
