@@ -28,6 +28,16 @@ public class Main {
         System.out.println("NIB: "+cb.getNib());
         System.out.println("Nome do titular da conta: "+cb.getTitular().getNome()+" "+cb.getTitular().getApelido());
         System.out.println("Saldo: "+cb.getSaldo()+"€");
+        System.out.println("Levantamento do dinheiro");
+        System.out.print("Quantia a levantar: ");
+        quantia = input.nextDouble();
+        if(cb.levantar(quantia))
+            System.out.println("Operação de levantamento realizada com sucesso");
+        else
+            System.out.println("Saldo insuficiente");
+        System.out.println("NIB: "+cb.getNib());
+        System.out.println("Nome do titular da conta: "+cb.getTitular().getNome()+" "+cb.getTitular().getApelido());
+        System.out.println("Saldo: "+cb.getSaldo()+"€");
 
     }
 }
