@@ -67,10 +67,27 @@ public class ContaBancaria {
 
     /**
      * Permite depositar dinheiro numa conta bancária
-     * @param quantia recebe um valor da quantia a depositar
+     * @param quantia recebe o valor da quantia a depositar
      * @return devolve o saldo atualizado da conta bancária
      */
     public double depositar(double quantia){
         return saldo + quantia;
+    }
+
+    /**
+     * Permite levantar o dinheiro da conta bancária
+     * Restrições: só é permitido levantar uma quantia inferior ou
+     * igual ao valor existente na conta bancária
+     * @param quantia recebe o valor da quantia a levantar
+     * @return devolve se a operação foi realizada com sucesso (true)
+     * ou não foi possível levantar a quantia (false)
+     */
+    public boolean levantar(double quantia){
+        if (quantia > saldo)
+            return false;
+        else{
+            saldo = saldo + quantia;
+            return true;
+        }
     }
 }
