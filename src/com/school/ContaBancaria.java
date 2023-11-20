@@ -56,4 +56,12 @@ public class ContaBancaria {
     public double getSaldo() {
         return saldo;
     }
+
+    /**
+     * Associa um cliente a uma conta bancária
+     * @param titular recebe um cliente para associar a uma conta bancária
+     */
+    public void associarCliente(Cliente titular){
+        this.titular = titular;
+    }
 }
