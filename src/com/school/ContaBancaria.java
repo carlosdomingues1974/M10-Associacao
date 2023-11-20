@@ -30,4 +30,30 @@ public class ContaBancaria {
         this.titular = titular;
         this.saldo = saldo;
     }
+
+    //Métodos getters
+
+    /**
+     * Obtém o número da conta bancária
+     * @return devolve o número da conta bancároa
+     */
+    public String getNib() {
+        return nib;
+    }
+
+    /**
+     * Obtém o titular da conta bancária
+     * @return devolve o titular da conta bancária
+     */
+    public Cliente getTitular() {
+        return titular;
+    }
+
+    /**
+     * Obtém o saldo da conta bancária
+     * @return devolve o saldo da conta bancária
+     */
+    public double getSaldo() {
+        return saldo;
+    }
 }
