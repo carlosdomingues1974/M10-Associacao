@@ -64,4 +64,13 @@ public class ContaBancaria {
     public void associarCliente(Cliente titular){
         this.titular = titular;
     }
+
+    /**
+     * Permite depositar dinheiro numa conta bancária
+     * @param quantia recebe um valor da quantia a depositar
+     * @return devolve o saldo atualizado da conta bancária
+     */
+    public double depositar(double quantia){
+        return saldo + quantia;
+    }
 }
