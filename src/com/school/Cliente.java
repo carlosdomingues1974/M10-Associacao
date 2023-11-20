@@ -27,4 +27,22 @@ public class Cliente {
         this.nome = nome;
         this.apelido = apelido;
     }
+
+    //Métodos getters
+
+    /**
+     * Obtém o nome do cliente
+     * @return devolve o nome do cliente
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * Obtém o apelido do cliente
+     * @return devolve o apelido do cliente
+     */
+    public String getApelido() {
+        return apelido;
+    }
 }

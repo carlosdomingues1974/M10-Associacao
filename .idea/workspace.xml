@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35c19b8-8ddb-4b38-bb3d-9eee349ca1e0" name="Changes" comment="Adicionar atributos à classe Cliente">
+    <list default="true" id="c35c19b8-8ddb-4b38-bb3d-9eee349ca1e0" name="Changes" comment="Adicionar os métodos construtores à classe Cliente">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/school/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/school/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700489338528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adicionar os métodos construtores à classe Cliente">
+      <option name="closed" value="true" />
+      <created>1700489574791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700489574791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criar a classe Cliente" />
     <MESSAGE value="Adicionar atributos à classe Cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionar atributos à classe Cliente" />
+    <MESSAGE value="Adicionar os métodos construtores à classe Cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionar os métodos construtores à classe Cliente" />
   </component>
 </project>
